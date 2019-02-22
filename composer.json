@@ -1,0 +1,39 @@
+{
+    "name": "ericlagarda/nova-text-card",
+    "description": "A custom card for Laravel Nova to show Text in cards with some good options",
+    "keywords": [
+        "laravel",
+        "nova",
+        "card",
+        "text"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Lagarda",
+            "email": "eric@infinety.es",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/nova": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ericlagarda\\NovaTextCard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ericlagarda\\NovaTextCard\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
