@@ -42,11 +42,11 @@ class TextCard extends Card
     }
 
     /**
-     * Set the text link
+     * Center contents.
      *
-     * @param  array  $text
+     * @param  bool  $boolean
      *
-     * @return array
+     * @return $this
      */
     public function center($boolean = true)
     {
@@ -54,11 +54,11 @@ class TextCard extends Card
     }
 
     /**
-     * Set the text link
+     * Set the heading contents.
      *
-     * @param  array  $text
+     * @param  string  $text
      *
-     * @return array
+     * @return $this
      */
     public function heading($text)
     {
@@ -66,11 +66,9 @@ class TextCard extends Card
     }
 
     /**
-     * Set the height of card
+     * Render heading contents as HTML.
      *
-     * @param  array  $text
-     *
-     * @return array
+     * @return $this
      */
     public function headingAsHtml()
     {
@@ -78,11 +76,11 @@ class TextCard extends Card
     }
 
     /**
-     * Set the text link
+     * Set the text contents.
      *
-     * @param  array  $text
+     * @param  string  $text
      *
-     * @return array
+     * @return $this
      */
     public function text($text)
     {
@@ -90,11 +88,9 @@ class TextCard extends Card
     }
 
     /**
-     * Set the height of card
+     * Render text contents as HTML.
      *
-     * @param  array  $text
-     *
-     * @return array
+     * @return $this
      */
     public function textAsHtml()
     {
@@ -102,11 +98,11 @@ class TextCard extends Card
     }
 
     /**
-     * Set the height of card
+     * Set the height of the card.
      *
-     * @param  array  $text
+     * @param  string  $height
      *
-     * @return array
+     * @return $this
      */
     public function height($height = 'auto')
     {
@@ -114,11 +110,9 @@ class TextCard extends Card
     }
 
     /**
-     * Set the height of card
+     * Force the full width of the card.
      *
-     * @param  array  $text
-     *
-     * @return array
+     * @return $this
      */
     public function forceFullWidth()
     {
